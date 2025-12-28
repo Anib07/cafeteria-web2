@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Coffe-Cty | Premium Coffee</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/590/590749.png">
+
+    <link rel="stylesheet" href="style/style.css">
+       <link rel="stylesheet" href="style/productos.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="brand">
+        <img src="https://cdn-icons-png.flaticon.com/512/590/590749.png">
+        <h1><em>Coffe-Cty</em></h1>
+    </div>
+
+    <!-- Botón hamburguesa -->
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <nav class="menu" id="menu">
+        <a href="index.html">Inicio</a>
+        <a href="#productos">Menú</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#redes">Redes</a>
+    </nav>
+</header>
+
+<main>
+<section class="hero" id="hero">
+
+    <!-- CAPA OSCURA -->
+    <div class="hero-bg"></div>
+
+    <!-- CONTENIDO -->
+    <div class="hero-content">
+        <span class="badge">RECIÉN TOSTADO</span>
+        <h2 class="hero-title">COFFEE</h2>
+        <p>Café premium que despierta los sentidos</p>
+        <button class="btn" id="btnProductos">Buscar bebida</button>
+    </div>
+
+    <!-- CAFÉ FLOTANTE -->
+   <div class="coffee" id="coffee">
+        <img src="img/pngwing.com.png" alt="Café flotante">
+
+        <span class="steam s1"></span>
+        <span class="steam s2"></span>
+        <span class="steam s3"></span>
+        <span class="steam s4"></span>
+    </div>
+    <br>
+<!-- SECCIÓN CARDS -->
+<div class="cards-section">
+    <h3>Tipos de Grano</h3>
+    <div class="cards-container">
+        <div class="card">
+            <h4>Arabica</h4>
+            <p>Suave y aromático, sabor equilibrado.</p>
+        </div>
+        <div class="card">
+            <h4>Robusta</h4>
+            <p>Fuerte y con más cafeína, sabor intenso.</p>
+        </div>
+        <div class="card">
+            <h4>Liberica</h4>
+            <p>Aroma frutal y floral, sabor único.</p>
+        </div>
+        <div class="card">
+            <h4>Excelsa</h4>
+            <p>Sabor afrutado y ácido, especial y raro.</p>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- SECCIÓN PRODUCTOS -->
+<div class="products-section" id="productos">
+    <h3>Nuestros Cafés</h3>
+
+    <div class="products-grid">
+
+        <div class="product-card">
+            <img src="img/pngwing.com (2).png" alt="Espresso">
+            <h4>Espresso</h4>
+            <p>Café intenso y aromático, servido en su forma más pura.</p>
+            <span class="price">$15.000</span>
+        </div>
+
+        <div class="product-card">
+            <img src="img/pngwing.com (1).png" alt="Capuccino">
+            <h4>Capuccino</h4>
+            <p>Equilibrio perfecto entre café, leche y espuma cremosa.</p>
+            <span class="price">$18.000</span>
+        </div>
+
+        <div class="product-card">
+            <img src="img/pngwing.com (3).png" alt="Latte">
+            <h4>Latte</h4>
+            <p>Suave, cremoso y delicado, ideal para cualquier momento.</p>
+            <span class="price">$17.000</span>
+        </div>
+
+        <div class="product-card">
+            <img src="img/pngwing.com (4).png" alt="Mocha">
+            <h4>Mocha</h4>
+            <p>Combinación irresistible de café, chocolate y leche.</p>
+            <span class="price">$19.000</span>
+        </div>
+
+    </div>
+
+  <a class="btn menu-btn" href="menu.html">Ver menú completo</a><br>
+  <br>
+</div>
+
+<!-- SECCIÓN nosotros -->
+<div class="about-section" id="about">
+    <div class="about-container">
+        <h3>Sobre Nuestra Empresa</h3>
+        <p>
+            Somos una empresa comprometida con la calidad y la excelencia. 
+            Nos dedicamos a ofrecer los mejores productos y servicios, 
+            innovando constantemente y cuidando cada detalle para nuestros clientes.
+        </p>
+
+        <div class="about-images">
+            <!-- Primer ítem -->
+            <div class="about-item">
+                <img src="img/4.avif" alt="Equipo">
+                <span>Equipo Profesional</span>
+                <svg class="arrow" viewBox="0 0 100 20">
+                    <line x1="0" y1="10" x2="90" y2="10" stroke="#fff" stroke-width="2" />
+                    <polygon points="90,5 100,10 90,15" fill="#fff"/>
+                </svg>
+            </div>
+
+            <!-- Segundo ítem -->
+            <div class="about-item">
+                <img src="img/3.avif" alt="Calidad">
+                <span>Productos de Calidad</span>
+                <svg class="arrow" viewBox="0 0 100 20">
+                    <line x1="0" y1="10" x2="90" y2="10" stroke="#fff" stroke-width="2" />
+                    <polygon points="90,5 100,10 90,15" fill="#fff"/>
+                </svg>
+            </div>
+
+            <!-- Tercer ítem -->
+            <div class="about-item">
+                <img src="img/2.avif" alt="Innovación">
+                <span>Innovación Constante</span>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<!-- =========================
+     DIV SUCURSALES CON MAPAS
+========================= -->
+<div class="sucursales-div" id="ubicacion">
+    <h2>Nuestras Sucursales</h2>
+    <p>Encuentra nuestra casa central y sucursales en diferentes ubicaciones. ¡Siempre cerca de ti!</p>
+
+    <div class="sucursales-container">
+
+        <!-- CASA CENTRAL -->
+        <div class="sucursal-card">
+            <h3>Casa Central</h3>
+            <p>Av. Principal 123, San Miguel, Caraguatay</p>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.7434531274565!2d-57.24563278497939!3d-25.847289083580776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945e7c5e0c01d1b7%3A0xabcdef1234567890!2sCasa%20Central!5e0!3m2!1ses!2spy!4v1699999999999!5m2!1ses!2spy" 
+                width="100%" 
+                height="180" 
+                style="border:0; border-radius: 15px;"
+                allowfullscreen="" 
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <p>
+                <a href="tel:+0981716332" class="btn-llamar">
+                    <i class="bi bi-telephone-fill"></i> 0981 716 332
+                </a>
+            </p>
+            <a href="https://www.google.com/maps" target="_blank" class="btn-direcciones">
+                <i class="bi bi-geo-alt-fill"></i> Cómo llegar
+            </a>
+        </div>
+
+        <!-- SUCURSAL 1 -->
+        <div class="sucursal-card">
+            <h3>Sucursal 1</h3>
+            <p>Calle Secundaria 45, Barrio Central</p>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.7434531274565!2d-57.24563278497939!3d-25.847289083580776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945e7c5e0c01d1b7%3A0xabcdef1234567890!2sSucursal%201!5e0!3m2!1ses!2spy!4v1699999999999!5m2!1ses!2spy" 
+                width="100%" 
+                height="180" 
+                style="border:0; border-radius: 15px;"
+                allowfullscreen="" 
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <p>
+                <a href="tel:+0981234567" class="btn-llamar">
+                    <i class="bi bi-telephone-fill"></i> 0981 234 567
+                </a>
+            </p>
+            <a href="https://www.google.com/maps" target="_blank" class="btn-direcciones">
+                <i class="bi bi-geo-alt-fill"></i> Cómo llegar
+            </a>
+        </div>
+
+        <!-- SUCURSAL 2 -->
+        <div class="sucursal-card">
+            <h3>Sucursal 2</h3>
+            <p>Calle Comercial 78, Barrio Norte</p>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.7434531274565!2d-57.24563278497939!3d-25.847289083580776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945e7c5e0c01d1b7%3A0xabcdef1234567890!2sSucursal%202!5e0!3m2!1ses!2spy!4v1699999999999!5m2!1ses!2spy" 
+                width="100%" 
+                height="180" 
+                style="border:0; border-radius: 15px;"
+                allowfullscreen="" 
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <p>
+                <a href="tel:+0987654321" class="btn-llamar">
+                    <i class="bi bi-telephone-fill"></i> 0987 654 321
+                </a>
+            </p>
+            <a href="https://www.google.com/maps" target="_blank" class="btn-direcciones">
+                <i class="bi bi-geo-alt-fill"></i> Cómo llegar
+            </a>
+        </div>
+
+    </div>
+</div>
+
+<!-- =========================
+     DIV CONTACTO Y REDES
+========================= -->
+<div class="contacto-div" id="redes">
+    <div class="contacto-container">
+
+        <!-- FORMULARIO CORREO -->
+        <div class="contacto-left">
+            <h3>Envíanos un mensaje</h3>
+            <form action="mailto:tuemail@dominio.com" method="post" enctype="text/plain">
+                <input type="text" name="nombre" placeholder="Tu nombre" required>
+                <input type="email" name="email" placeholder="Tu correo" required>
+                <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+                <button type="submit" class="btn-enviar">
+                    <i class="bi bi-envelope-fill"></i> Enviar
+                </button>
+            </form>
+        </div>
+
+        <!-- REDES SOCIALES -->
+        <div class="contacto-right">
+            <h3>Síguenos en redes</h3>
+            <div class="redes">
+                <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="bi bi-youtube"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</section>
+
+
+<!-- Botón flotante de WhatsApp -->
+<a href="https://wa.me/598981716332" target="_blank" class="whatsapp-float">
+    <i class="bi bi-whatsapp"></i>
+</a>
+
+</main>
+
+<footer class="footer">
+    © 2025 Coffe-Cty · Premium Coffee Experience
+</footer>
+
+<script src="js/js.js"></script>
+</body>
+</html>
