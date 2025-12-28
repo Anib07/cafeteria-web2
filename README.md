@@ -1,5 +1,5 @@
 # cafeteria-web2
-# cafeteria-web2
+
 Proyecto web responsivo de una cafetería moderna con animaciones interactivas, menú digital y sucursales con mapas integrados.
 Este proyecto es una página web completa para una cafetería moderna, diseñada con HTML, CSS y JavaScript. Incluye:
 
