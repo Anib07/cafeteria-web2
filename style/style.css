@@ -12,6 +12,21 @@ body {
     overflow-x: hidden;
 }
 
+.btn a {
+    color: inherit;        /* usa el color del botón */
+    text-decoration: none; /* quita el subrayado */
+    display: block;        /* ocupa todo el botón */
+    width: 100%;
+    height: 100%;
+}
+
+/* Opcional: mantiene el color al pasar el mouse */
+.btn a:hover,
+.btn a:visited,
+.btn a:active {
+    color: inherit;
+    text-decoration: none;
+}
 
 /* HEADER */
 .header {
@@ -795,3 +810,4 @@ body {
     transform: scale(1.1);
     box-shadow: 0 8px 25px rgba(0,0,0,0.5);
 }
+
